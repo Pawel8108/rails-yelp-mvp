@@ -16,7 +16,7 @@
 </p>
 
 <h2>Reviews</h2>
-
+<%= link_to "Add a review", new_restaurant_review_path(@restaurant) %>
 <ul>
   <% @restaurant.reviews.each do |review| %>
     <li>
